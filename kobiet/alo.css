@@ -1,0 +1,121 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.container{
+	width: 1300px;
+	margin: 0 auto
+}
+.container-lg{
+	width: 1500px;
+	margin: 0 auto
+}
+.row{
+	display: flex;
+	flex-wrap: wrap
+}
+.row>[class*="col-"]{
+	padding: 12px
+}
+/*justify*/
+.justify-start{
+	justify-content: flex-start
+}
+.justify-center{
+	justify-content: center
+}
+.justify-end{
+	justify-content: flex-end
+}
+.justify-between{
+	justify-content: space-between
+}
+.justify-around{
+	justify-content: space-around
+}
+/*align*/
+.align-items-start{
+	align-items: flex-start
+}
+.align-items-center{
+	align-items: center
+}
+.align-items-end{
+	align-items: flex-end
+}
+.align-self-start{
+	align-self: flex-start
+}
+.align-self-center{
+	align-self: center
+}
+.align-self-end{
+	align-self: flex-end
+}
+.text-center{
+	text-align: center
+}
+.col-1{
+	width: 8.33%
+}
+.col-2{
+	width: 16.66%
+}
+.col-3{
+	width: 25%
+}
+.col-4{
+	width: 33.33%
+}
+.col-5{
+	width: 41.66%
+}
+.col-6{
+	width: 50%
+}
+.col-7{
+	width: 58.33%
+}
+.col-8{
+	width: 66.66%
+}
+.col-9{
+	width: 75%
+}
+.col-10{
+	width: 83.33%
+}
+.col-11{
+	width: 91.66%
+}
+.col-12{
+	width: 100%
+}
+/* CSS Document */
+.header{
+	padding: 16px 0;
+}
+.logo a{
+	font-size: 36px;
+	text-decoration: none;
+	color: #1f1f1f;
+}
+.nav ul{
+	list-style: none
+}
+.nav li{
+	margin: 0 16px;
+}
+.nav li a{
+	text-decoration: none;
+	color: #1f1f1f;
+}
+.nav li a:hover{
+	opacity: 0.8
+}

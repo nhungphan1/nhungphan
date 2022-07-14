@@ -1,0 +1,88 @@
+/* CSS Document */
+/*Header*/
+#wrapper{
+	background-color: #f8f2e8
+}
+.banner{
+	background:url("../pexels-quang-nguyen-vinh-2147834.jpg");
+	background-size: 1300px;
+	background-repeat: no-repeat;
+	background-position: 0-200px;
+	background-position: center;
+	padding: 160px 0;
+	color:#FFFFFF;
+}
+.banner h1{
+	font-weight: 400;
+	letter-spacing: 2px;
+	word-spacing: 10px;
+}
+.banner p{
+	margin: 8px 0 40px;
+}
+.btn{
+	background:#D5AD80;
+	color:aliceblue;
+	text-decoration: none;
+	padding: 8px 30px;
+}
+.btn:hover{
+	background-color:#664120;
+}
+/*banner*/
+
+.service{
+	padding: 25px 0
+}
+.kichthuoc {
+	height: 20vw;
+}
+.box {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.feature-image {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-repeat: no-repeat;
+}
+.feature-image{
+	transition: 1s all ease-in-out
+}
+.box:hover .feature-image {
+	transform: scale(1.1);
+}
+/*service*/
+
+.section-1{
+	padding: 25px 0;
+}
+.content h3{
+	font-size: 22px;
+	padding: 15px 0
+}
+.feature{
+	overflow: hidden;
+	height: 280px;
+}
+
+
+
+
+
+
+.feature-matcha img{
+	width: 300px;
+	margin-left: 150px
+}
+.content-matcha{
+	padding: 100px 50px;
+	
+}
+.content-matcha p{
+	padding: 20px 0;
+	
+}
