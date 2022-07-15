@@ -71,12 +71,9 @@
 
 
 
-
-
-
 .feature-matcha img{
 	width: 300px;
-	margin-left: 250px
+	margin-left: 150px
 }
 .content-matcha{
 	padding: 100px 50px;
@@ -85,4 +82,64 @@
 .content-matcha p{
 	padding: 20px 0;
 	
+}
+
+.section-3 {
+    background: url("../banform.jpg");
+    background-size: cover;
+    width: 100%;
+	padding: 25px
+}
+
+.box-info {
+    background-color: #433c3b8b;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.info-content {
+    text-align: center;
+    margin: 10px;
+}
+
+.text {
+    font-size: 24px;
+    text-align: left;
+}
+
+.input {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+.play {
+    background-color: black;
+    color: white;
+}
+
+.box-info h2 {
+    padding-top: 10px;
+}
+
+.col6 {
+    width: 50%
+}
+
+
+.section-2 h1{
+	text-align: center;
+	padding: 25px
+}
+.feature-1 img{
+	width: 400px;
+}
+
+.content-footer{
+	color: black;
+	font-size: 14px;
+	text-align: center;
+	line-height: 10px;
+	padding: 10px;
 }
